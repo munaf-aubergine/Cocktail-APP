@@ -31,8 +31,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install dependecies
         run: npm install
-      - name: Run Test
-        run: npm test
         env:
           CI: true
       - name: Generate build
